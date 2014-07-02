@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carlos Alvarez, Theme designer & developer living in Madrid, Spain.">
+    <meta name="author" content="Carlos Alvarez">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Cucu. | a lifestyle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container">
+    <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2 ">
+            <h1>Cucu.<br/> a lifestyle</h1>
+        </div>
+    </div>
+    <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2 w tooltip-demo" id="demo">
+            <img class="img-responsive img-thumbnail hidden" src="http://2.bp.blogspot.com/-juKnbeuaiGU/UKBOdPwv9qI/AAAAAAAAAO4/7n1ZjXaVZmY/s1600/Cucu...+Cuando+el+gato+se+lo+come.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://30.media.tumblr.com/tumblr_lz8n5dQxMr1r88u00o1_500.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://37.media.tumblr.com/tumblr_lxtph2PJps1r8058ko1_500.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://stream1.gifsoup.com/view7/2470987/marc-warren-does-cucu-o.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://37.media.tumblr.com/tumblr_lxtph2PJps1r8058ko1_500.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://37.media.tumblr.com/tumblr_lxtph2PJps1r8058ko1_500.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://37.media.tumblr.com/tumblr_lxtph2PJps1r8058ko1_500.gif"/>
+            <img class="img-responsive img-thumbnail hidden" src="http://37.media.tumblr.com/tumblr_lxtph2PJps1r8058ko1_500.gif"/>
+        </div>
+    </div>
+</div><!-- /.container -->
+
+<div class="container">
+    <div>
+        <br>
+        <div class="col-lg-8 col-lg-offset-2 w">
+            <dl class="text-justify">
+                <dt class="text-justify">cucù[cu-cù] o cuccù onom., s.</dt>
+                <dd>1. Voce che imita il verso del cuculo</dd>
+                <dd>2.  Nel gioco del nascondino, grido con cui si attira l'attenzione di chi deve cercare i compagni; estens. esclamazione beffarda e canzonatoria, usata anche per rispondere a una proposta</dd>
+                <dd>3.  Itercalare utilizzato talvolta dalle segretarie FBK.</dd>
+                <dd>• s.m. Cuculo; anche, il suo verso || orologio a c., quello a pendolo in cui le ore vengono scandite da un suono simile al verso del cuculo<br/>
+            • sec. XVI</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        var idx = Math.floor(Math.random()*$('#demo img').length);
+        var el = $($('#demo img')[idx]);
+        el.removeClass('hidden');
+    });
+</script>
+
+
+<!--BACKSTRETCH-->
+<!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+<script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+<script>
+    $.backstretch("assets/img/bg.jpg", {speed: 500});
+</script>
+
+</body>
+</html>
